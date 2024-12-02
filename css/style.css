@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+.container,
+h3,
+.result {
+  padding-bottom: 20px;
+  width: 100vh;
+  margin: auto;
+}
+.container input {
+  margin: 0 5px 10px;
+  width: 100px;
+  padding: 5px;
+  outline: none;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  background-color: #e0e0e0;
+  &:focus {
+    background-color: white;
+  }
+}
+.calc {
+  margin: 0 5px 10px;
+  width: 100px;
+  padding: 5px;
+  outline: none;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.877;
+  }
+}
+.result {
+  text-align: center;
+  font-size: 25px;
+}
